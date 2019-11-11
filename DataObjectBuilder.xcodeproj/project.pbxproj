@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		B5C1C2451A14762300E372CA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B5C1C2441A14762300E372CA /* main.m */; };
+		B5C1C24D1A1482EC00E372CA /* NSString+ContentHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = B5C1C24C1A1482EC00E372CA /* NSString+ContentHelper.m */; };
+		B5C1C24F1A148D2400E372CA /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B5C1C24E1A148D2400E372CA /* libsqlite3.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,9 @@
 /* Begin PBXFileReference section */
 		B5C1C2411A14762300E372CA /* DataObjectBuilder */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DataObjectBuilder; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5C1C2441A14762300E372CA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B5C1C24B1A1482EC00E372CA /* NSString+ContentHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+ContentHelper.h"; sourceTree = "<group>"; };
+		B5C1C24C1A1482EC00E372CA /* NSString+ContentHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+ContentHelper.m"; sourceTree = "<group>"; };
+		B5C1C24E1A148D2400E372CA /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5C1C24F1A148D2400E372CA /* libsqlite3.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -41,6 +47,7 @@
 		B5C1C2381A14762300E372CA = {
 			isa = PBXGroup;
 			children = (
+				B5C1C24E1A148D2400E372CA /* libsqlite3.dylib */,
 				B5C1C2431A14762300E372CA /* DataObjectBuilder */,
 				B5C1C2421A14762300E372CA /* Products */,
 			);
@@ -58,6 +65,8 @@
 			isa = PBXGroup;
 			children = (
 				B5C1C2441A14762300E372CA /* main.m */,
+				B5C1C24B1A1482EC00E372CA /* NSString+ContentHelper.h */,
+				B5C1C24C1A1482EC00E372CA /* NSString+ContentHelper.m */,
 			);
 			path = DataObjectBuilder;
 			sourceTree = "<group>";
@@ -119,6 +128,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B5C1C2451A14762300E372CA /* main.m in Sources */,
+				B5C1C24D1A1482EC00E372CA /* NSString+ContentHelper.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
